@@ -510,7 +510,7 @@ body{
     width: 450px;
     margin: 10px;
     border-radius: 30px;
-    height: 300px;
+    height: fit-content;
     
 }
 
@@ -532,15 +532,55 @@ body{
     text-decoration: none;
     color: #004225;
 }
+.blog-content p{
+    font-size: 15px;
+}
 
 .blog-content h4{
     font-weight: 700;
 }
+
+@media (max-width: 880px) {
+    .blog-content h4{
+        font-size: 18px;
+    }
+    .blog-content p{
+        font-size: 14px;
+    }
+    .blog-img{
+        width: 180px;  
+        height: 230px;
+        margin: 0;
+    }
+    
+}
+
+
 @media (max-width: 680px) {
     .blog-card{
         flex-wrap: wrap;
         max-width: min-content;
         height: min-content;
+    }
+    .blog-content h4{
+        font-size: initial;
+    }
+    .blog-content p{
+        font-size: 13px;
+    }
+    .blog-img{
+        width: 150px;  
+        height: 200px;
+        margin: 0;
+    }
+    
+}
+@media (max-width: 420px){
+    .blog-content h4{
+        font-size: 14px;
+    }
+    .blog-content p{
+        font-size: 10px;
     }
 }
 

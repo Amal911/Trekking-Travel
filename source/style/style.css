@@ -576,6 +576,11 @@ body{
     
 }
 @media (max-width: 420px){
+    .blog-img{
+        width: 140px;  
+        height: 180px;
+        margin: 3px;
+    }
     .blog-content h4{
         font-size: 14px;
     }

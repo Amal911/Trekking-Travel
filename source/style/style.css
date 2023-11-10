@@ -647,7 +647,11 @@ font-weight: 700;
     
     color: #fff;
 }
-
+@media (max-width: 620px) {
+    .section7{
+        display: block;
+    }
+}
 .copyright h5{
     font-weight: 700;
 }

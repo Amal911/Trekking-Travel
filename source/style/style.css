@@ -54,9 +54,11 @@ body{
 }
 
 
- .section2, .section3, .section4, .section5, .section6, .section7{ 
+ .section2, .section3, .section4, .section5, .section7{ 
     margin: 0 5rem;
-    min-height: 90vh;
+    height: fit-content;
+    padding: 5rem 0;
+
 }
 @media screen and (max-width:880px) {
     .section2, .section3, .section4, .section5, .section6, .section7{ 

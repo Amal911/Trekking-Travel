@@ -1,6 +1,7 @@
 body{
     font-family: 'Merriweather', serif;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -9,8 +10,26 @@ body{
     --sec-color:rgb(239, 253, 248);
     
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #00c97249;
+    border-radius: 50px;
+    transition: background-color .5s;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #00c972e2;
+   
+}
 
 /* NavBar */
+.navbar{
+    transition: all .4s;
+}
 .brandName{
     font-size: 1.8rem;
     font-weight: 900;
@@ -28,6 +47,10 @@ body{
     font-weight: 700;
     color: var(--fontColor)
 
+}
+.sm-nav{
+    height: 80px;
+    
 }
 
 

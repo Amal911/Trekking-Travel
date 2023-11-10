@@ -577,8 +577,8 @@ body{
 }
 @media (max-width: 420px){
     .blog-img{
-        width: 140px;  
-        height: 180px;
+        width: 120px;  
+        height: 160px;
         margin: 3px;
     }
     .blog-content h4{
@@ -586,6 +586,15 @@ body{
     }
     .blog-content p{
         font-size: 10px;
+    }
+    .blog-content a{
+        font-size: 12px;
+    }
+    .blog-card{
+       
+
+        width: 350px;
+        margin: 5px;
     }
 }
 
@@ -686,7 +695,7 @@ font-weight: 700;
 }
 @media (max-width: 620px) {
     .section7{
-        display: block;
+        flex-direction: column;
     }
 }
 .copyright{
